@@ -1,0 +1,19 @@
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+*.pem
+*.key
+secrets/
+credentials/
+
+# Burp/session exports may contain cookies or tokens
+*.burp
+*.burpstate
